@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react'
 import Header from './components/Header'
-import Produtos from './containers/Produtos/Produtos'
+import Produtos from './containers/Produtos'
 
 import { GlobalStyle } from './styles'
 import { Provider } from 'react-redux'
-import { store } from './store'
+import { configureStore } from './store'
+const store = configureStore()
 
 export type Game = {
   id: number
