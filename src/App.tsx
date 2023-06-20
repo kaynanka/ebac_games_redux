@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Header from './components/Header'
-import Produtos from './containers/Produtos'
+import Produtos from './containers/Produtos/Produtos'
 
 import { GlobalStyle } from './styles'
 import { Provider } from 'react-redux'
